@@ -1,4 +1,4 @@
-mport random
+import random
 
 while True:
     num1 = random.randint(1, 30)
@@ -18,4 +18,5 @@ while True:
         else:
             print("Incorrect, try again.")
     except ValueError:
+
         print("Please enter a number or 'exit'.")
