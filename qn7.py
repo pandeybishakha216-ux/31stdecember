@@ -1,3 +1,4 @@
+import random
 username = "admin"
 password = "1234"
 attempts = 0
@@ -16,3 +17,4 @@ while attempts < max_attempts:
             print(f"Invalid credentials, try again. ({max_attempts - attempts} attempts left)")
         else:
             print("Too many failed attempts.")
+
